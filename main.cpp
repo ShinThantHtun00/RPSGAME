@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {
+
   char player;
   char computer;
   int playerWins = 0;
@@ -26,7 +27,6 @@ int main()
     computer = getComputerChoice();
     cout << "Computer's choice  : ";
     showTheirChoices(computer);
-
     char result = findWinner(player, computer);
 
     if (result == 'p')
